@@ -15,6 +15,7 @@ class PersonaController extends Controller
 
     public function RegistrarPersonaNatural()
     {
+        ///Demo de Persona Natural
     	$sexos = Sexo::Listar_Sexo();
     	$estadosciviles = EstadoCivil::Listar_Estados_Civiles();
     	$departamentos  = Zona::Listar_zonas_departamentos(); 
